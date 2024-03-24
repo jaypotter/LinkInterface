@@ -1,0 +1,2 @@
+# LinkInterface
+PHP Link Interface
