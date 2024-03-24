@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Potter\Link;
 
-abstract class AbstractLink extends LinkInterface
+abstract class AbstractLink implements LinkInterface
 {
     abstract public function getHref(): string;
     abstract public function hasHref(): bool;
